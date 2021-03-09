@@ -589,7 +589,13 @@ th {
 		-webkit-text-stroke: 1px black;
 	}
 	.uh {
-		left: 60px;
+		left: 74px;
+	}
+	#myImg {
+		width: 114px;
+	}
+	main{
+		overflow-x: hidden;
 	}
 	}
 *{
