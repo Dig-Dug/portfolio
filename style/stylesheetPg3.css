@@ -568,15 +568,16 @@ th {
 	color: #ffffff;
     -webkit-text-stroke: 1px black;
 }
-.uh{
-	left: 59px;
+.uh {
+    left: 88px;
 }
 #myImg {
 	width: 122px;
 }
 }
 @media screen and (max-width: 320px) {
-	th {left: -21px;
+	th {
+		left: -29px;
 		position: relative;
 		height: 4em;
 		font-family: 'Roboto Slab', serif;
@@ -587,7 +588,9 @@ th {
 		color: #ffffff;
 		-webkit-text-stroke: 1px black;
 	}
-	
+	.uh {
+		left: 60px;
+	}
 	}
 *{
   box-sizing: border-box;  
