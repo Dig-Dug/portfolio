@@ -183,7 +183,37 @@ i {
     margin-left: 102px;
     top: 388px;
 }
+#submit {
+	width: 350px;
+    padding: 0;
+    margin: -4px 0px 0px 0px;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 15px;
+	font-weight: inherit;
+	color: #6163a0;
+	outline: none;
+	cursor: pointer;
+	border: solid 1px #6163a0;
+	border-top: none;
+}
 
+#submit:hover {
+	font-family: 'Source Code Pro', monospace;
+	color: #e2dedb;
+}
+.Frm {
+	position: relative;
+	height: 40px;
+	width: 350px;
+	right: 6px;
+}
+.Frm1 {
+	position: relative;
+	height: 120px;
+	width: 350px;
+	right: 6px;
+	overflow-x: hidden;
+}
 @media screen and (max-width: 600px) {
 	nav {
 		width: 100%;
@@ -273,7 +303,45 @@ i {
 		display: none;
 	}
 }
+@media screen and (max-width: 425px) {
+	#chowN{
+		display: none;
+	}
+	#chow{
+		text-justify: auto;
+		display: inline !important;font-weight: lighter;
+	}
+	.boxx{
+		position: relative;
+		bottom: 72px;
+	}
+	input#submit {
+		position: relative;
+		height: 40px;
+		width: 350px;
+		right: 6px;
+	}
+	.Frm {
+		position: relative;
+		height: 40px;
+		width: 350px;
+		right: 6px;
+	}
+	.Frm1 {
+		position: relative;
+		height: 120px;
+		width: 350px;
+		right: 6px;
+		overflow-x: hidden;
+	}
+	#submit{
 
+		width: 350px;
+    padding: 0;
+    margin: -4px 0px 0px 0px;
+	}
+	
+	}
 @media screen and (max-width: 375px) {
 	th {
 		left: auto;
@@ -287,17 +355,11 @@ i {
 	input#submit {
 		width: 323px;
 	}
-}
-@media screen and (max-width: 425px) {
-#chowN{
-	display: none;
-}
-#chow{
-	text-justify: auto;
-	display: inline !important;font-weight: lighter;
+	#submit{
+		width: 323px;
+	}
 }
 
-}
 @media screen and (max-width: 360px) {
 	.Frm {
 		width: 274px;
@@ -317,6 +379,10 @@ i {
 	.Frm {
 		width: 269px;
 	}
+	.boxx{
+
+		font-size: 28px !important;
+	}
 	.Frm1 {
 		width: 269px;
 	}
@@ -326,6 +392,9 @@ i {
 	#chow{
 		font-size: inherit;
 		display: inline !important;font-weight: lighter;
+	}
+	#submit {
+		width: 269px;
 	}
 	
 }
@@ -500,21 +569,3 @@ textarea:hover {
 	color: #e2dedb;
 }
 
-#submit {
-	width: 470px;
-	padding: 0;
-	margin: -5px 0px 0px 0px;
-	font-family: 'Source Code Pro', monospace;
-	font-size: 15px;
-	font-weight: inherit;
-	color: #6163a0;
-	outline: none;
-	cursor: pointer;
-	border: solid 1px #6163a0;
-	border-top: none;
-}
-
-#submit:hover {
-	font-family: 'Source Code Pro', monospace;
-	color: #e2dedb;
-}
