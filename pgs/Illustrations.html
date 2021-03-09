@@ -191,18 +191,16 @@
     <div><img src="../GitHub-Mark/PNG/GitHub-Mark-Light-120px-plus.png" usemap="#workmap"class="gitty" width="600"></div>
    
     <div class="uh">
-        <img  hidden class="myImages" id="myImg" src="../img/hujk.jpg" width="600" height="200" alt="1">
-        <img  hidden class="myImages" id="myImg" src="../img/frog.jpg" width="600" height="200" alt="1">
-        <img  hidden class="myImages" id="myImg" src="../img/jko.jpg" width="600" height="200" alt="1">
-        <img  hidden class="myImages" id="myImg" src="../img/movin.jpg" width="600" height="200" alt="1">
-        <img  hidden class="myImages" id="myImg" src="../img/uing.jpg" width="600" height="200" alt="1">
-        <img  hidden class="myImages" id="myImg" src="../img/koo.jpg" width="600" height="200" alt="1">
-        <img  hidden class="myImages" id="myImg" src="../img/yellow_monkey.jpg" width="600" height="200" alt="1">
-        <img  hidden class="myImages" id="myImg" src="../img/sp.jpg" width="600" height="200" alt="1">
+        <img  hidden class="myImages" id="myImg" src="../img/hujk.jpg" width="600" height="200" >
+        <img  hidden class="myImages" id="myImg" src="../img/frog.jpg" width="600" height="200" >
+        <img  hidden class="myImages" id="myImg" src="../img/jko.jpg" width="600" height="200" >
+        <img  hidden class="myImages" id="myImg" src="../img/movin.jpg" width="600" height="200" >
+        <img  hidden class="myImages" id="myImg" src="../img/uing.jpg" width="600" height="200" >
+        <img  hidden class="myImages" id="myImg" src="../img/koo.jpg" width="600" height="200">
+        <img  hidden class="myImages" id="myImg" src="../img/yellow_monkey.jpg" width="600" height="200" >
+        <img  hidden class="myImages" id="myImg" src="../img/sp.jpg" width="600" height="200" >
        
-     <!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal_img-->
 
-     
      <!--https://jsfiddle.net/snowMonkey/f1zav0ge/-->
     </div>       
      <div id="myModal" class="modal">
@@ -211,51 +209,20 @@
         <div id="caption"></div>
       </div> 
     <script>
-      /*  ( function( d ) {
-          'use strict';
-           var count = 0;
-           var pic = d.getElementById( 'image' );
-               pic.addEventListener( 'click', 
-                function() {
-                  count ++;
-                  if ( count === 2  ) {
-                       pic.classList.remove( 'setting' + count )
-                       count = 0;
-                    }
-        
-                       pic.classList.remove( 'setting' + count );
-                       pic.classList.add( 'setting' + ( count + 1 )  );
-            
-                }, false );
-         }( document ));
-
-         
-         
-         function Change()
-{
-document.getElementById("change").height="200";
-document.getElementById("change").width="200";
-}
-function Revert()
-{
-document.getElementById("change").height="100";
-document.getElementById("change").width="100";
-}
-      */
+    
      
       var modal = document.getElementById('myModal');
-// to all images -- note I'm using a class!
+
 var images = document.getElementsByClassName('myImages');
-// the image in the modal
+
 var modalImg = document.getElementById("img01");
-// and the caption in the modal
+
 var captionText = document.getElementById("caption");
 
-// Go through all of the images with our custom class
+
 for (var i = 0; i < images.length; i++) {
   var img = images[i];
-  // and attach our click listener for this image.
-  img.onclick = function(evt) {
+   img.onclick = function(evt) {
     console.log(evt);
     modal.style.display = "block";
     modalImg.src = this.src;
