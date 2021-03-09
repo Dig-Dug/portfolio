@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!-- Template by html.am -->
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	
+	<link rel="icon" 
+	type="image/png" 
+	href="../navIcon/1.png">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="../style/stylesheetPg3.css">
+
+	<script type="text/javascript" src="../js/foto.js"></script>
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+
+	<div class="container">
+
+		<nav class="menu">
+			<ul id="nav-two" class="nav">
+				<input type="radio" name="menu" id="archive" checked>
+				<li>
+					<label for="archive" class="title"><i class="fa fa-folder" href="../index.html"></i>Graphc Design</label>
+
+
+
+					<audio id="beep-two" controls preload="auto" class="audio">
+						<source src="../audio/beep.mp3" controls></source>
+						<source src="../audio/beep.ogg" controls></source>
+					</audio>
+					<a href="projects.html">Projects</a>
+					<a href="Illustrations.html">Illustrations</a>
+					<a href="kontakt.html">Kontakt</a>
+					<a href="../index.html">Exit</a>
+
+
+				</li>
+				<input type="radio" name="menu" id="edit">
+				<li>
+					<label for="edit" class="title"><i class="fa fa-edit"></i>About me</label>
+					<a href="Stack.html">Stack</a>
+					<a href="Clients.html">Clients</a>
+					<a href="Cv.html">CV</a>
+					
+				</li>
+				<input type="radio" name="menu" id="tools">
+				<li>
+					<label for="tools" class="title"><i class="fa fa-gavel"></i>Tools</label>
+					<a href="#">Build</a>
+					<a href="#">Macros</a>
+					<a href="#">Command</a>
+					<a href="#">Snippets</a>
+				</li>
+				<input type="radio" name="menu" id="preferences">
+				<li>
+					<label for="preferences" class="title"><i class="fa fa-gears"></i>Preferences</label>
+					<a href="#">Browser</a>
+					<a href="#">Settings</a>
+					<a href="#">Packages</a>
+					<a href="#">Theme</a>
+				</li>
+				<div class="logo-image">
+					<img class="img-fluid">
+				</div>
+			</ul>
+		</nav>
+		<main class="main">
+			<h1>Graphic Design</h1>
+			<table>
+				<thead>
+
+					<tr>
+						<th colspan="">Graphic Design</th>
+					</tr>
+				</thead>
+				<tbody>
+
+
+					<script>
+						$("#nav-two a")
+							.each(function (i) {
+								if (i != 0) {
+									$("#beep-two")
+										.clone()
+										.attr("id", "beep-two" + i)
+										.appendTo($(this).parent());
+								}
+								$(this).data("beeper", i);
+							})
+							.mouseenter(function () {
+								$("#beep-two" + $(this).data("beeper"))[0].play();
+							});
+						$("#beep-two").attr("id", "beep-two0");</script>
+
+					
+
+
+					<tr>
+					</tr>
+
+				</tbody>
+			</table>
+			
+
+
+			<footer class="footer">
+				<p>
+					Author: Hege Refsnes<br>
+					<a href="mailto:hege@example.com">hege@example.com</a>
+				</p>
+			</footer>
+
+
+		</main>
+	</div>
+	<!--https://codepen.io/ensay0/pen/GRZxNga-->
+
+
+
+
+
+</body>

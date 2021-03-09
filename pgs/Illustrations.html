@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<!-- Template by html.am -->
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="../style/stylesheetPg3.css">
+
+    <script type="text/javascript" src="../js/foto.js"></script>
+	<link rel="icon" 
+	type="image/png" 
+	href="../navIcon/1.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+
+    <div class="container">
+
+        <nav class="menu">
+            <ul id="nav-two" class="nav">
+                <input type="radio" name="menu" id="archive" checked>
+                <li>
+                    <label for="archive" class="title"><i class="fa fa-folder" href="../index.html"></i>Illustration</label>
+
+
+
+                    <audio id="beep-two" controls preload="auto" class="audio">
+                        <source src="../audio/beep.mp3" controls></source>
+                        <source src="../audio/beep.ogg" controls></source>
+                    </audio>
+                    <a href="projects.html">Projects</a>
+                    <a href="test.html">Graphic Design</a>
+                    <a href="kontakt.html">Contact</a>
+                    <a href="../index.html">Exit</a>
+
+                </li>
+                <input type="radio" name="menu" id="edit">
+                <li style="height: 110px;">
+					<label for="edit" class="title"><i class="fa fa-edit"></i>About me</label>
+					<a href="Stack.html">Stack & Certificates</a>
+					
+					<a  id="up" onclick="window.open('../Portfolio.pdf')">Download CV</a>
+					
+				</li>
+          <!--      <input type="radio" name="menu" id="tools">
+                <li>
+                    <label for="tools" class="title"><i class="fa fa-gavel"></i>Tools</label>
+                    <a href="#">Build</a>
+                    <a href="#">Macros</a>
+                    <a href="#">Command</a>
+                    <a href="#">Snippets</a>
+                </li>
+                <input type="radio" name="menu" id="preferences">
+                <li>
+                    <label for="preferences" class="title"><i class="fa fa-gears"></i>Preferences</label>
+                    <a href="#">Browser</a>
+                    <a href="#">Settings</a>
+                    <a href="#">Packages</a>
+                    <a href="#">Theme</a>
+                </li> -->
+                
+                
+                <div class="logo-image">
+                    <!--	<img class="img-fluid"> -->
+                    <!--	-->
+                         
+                        <map name="workmap">
+                        <area shape="rect" coords="34,44,270,350" # href="https://github.com/Dig-Dug?tab=repositories" target="_blank">
+                            
+                          </map>
+                    </div>
+            </ul>
+        </nav>
+        <main class="main">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="3">Illustration</th>
+                    </tr>
+                </thead>
+               
+                <tbody>
+
+
+                    <script>
+						$("#nav-two a")
+							.each(function (i) {
+								if (i != 0) {
+									$("#beep-two")
+										.clone()
+										.attr("id", "beep-two" + i)
+										.appendTo($(this).parent());
+								}
+								$(this).data("beeper", i);
+							})
+							.mouseenter(function () {
+								$("#beep-two" + $(this).data("beeper"))[0].play();
+							});
+						$("#beep-two").attr("id", "beep-two0");</script>
+ 
+ <!--<h1 class="line-1 anim-typewriter">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>-->
+         
+ <tr>
+    <td colspan=3>
+    <!--https://codepen.io/ongtiffany/pen/BoOeQV-->    
+    </td>
+  
+</tr>
+      
+         
+<tr>
+    <td colspan=1 style="height: 21px;
+    width: 21px;">
+        <img  onmouseover="upDate(this)" title="This is some text I want to display." onmouseout="unDo()" src="../img/hujk.jpg" />
+    </td>
+    <td style="height: 21px;
+    width: 21px;">
+        <img  onmouseover="upDate(this)" onmouseout="unDo()" src="../img/frog.jpg" />
+    </td style="height: 21px;
+    width: 21px;">
+    <td>
+        <img  onmouseover="upDate(this)" onmouseout="unDo()" src="../img/jko.jpg" />
+    </td>
+   
+</tr>
+<tr>
+    <td colspan=1 style="width: 26px;">
+        <img  onmouseover="upDate(this)" onmouseout="unDo()" src="../img/movin.jpg" />
+    </td>
+    <td>
+        <img  onmouseover="upDate(this)" onmouseout="unDo()" src="../img/uing.jpg" />
+    </td>
+    <td>
+        <img onmouseover="upDate(this)"  onmouseout="unDo()" src="../img/koo.jpg" />
+    </td>
+</tr>
+<tr>
+    <td colspan=1 style="
+    width: 21px;
+    height: 21px;
+">
+        <img  onmouseover="upDate(this)" title="This is some text I want to display." onmouseout="unDo()" src="../img/yellow_monkey.jpg" />
+    </td>
+    <td>
+        <img  onmouseover="upDate(this)" onmouseout="unDo()" src="../img/joih.jpg" />
+    </td>
+    <td>
+        <img  onmouseover="upDate(this)" onmouseout="unDo()" src="../img/sp.jpg" />
+    </td>
+   
+</tr>
+
+
+                    <tr>
+                    </tr>
+
+                </tbody>
+            </table>
+       
+            <div hidden id="preview2"></div>
+            <div hidden class="grid"> 
+                <img onmouseover="upDate(this)" onmouseout="unDo()" class="cert" src="../img/hujk.jpg">
+                <img onmouseover="upDate(this)" class="cert" src="../img/frog.jpg">
+                <img onmouseover="upDate(this)" class="cert" src="../img/jko.jpg">
+                 <img onmouseover="upDate(this)" onmouseout="unDo()" class="cert" src="../img/movin.jpg">
+                <img onmouseover="upDate(this)" onmouseout="unDo()" class="cert" src="../img/uing.jpg">
+                <img onmouseover="upDate(this)" onmouseout="unDo()" class="cert" src="../img/koo.jpg">
+                <img onmouseover="upDate(this)" onmouseout="unDo()" class="cert" src="../img/yellow_monkey.jpg">
+                <img onmouseover="upDate(this)" onmouseout="unDo()" class="cert" src="../img/sp.jpg">
+               
+              
+              </div>
+             
+    
+      <!--      <div id="preview" style="background-color: rgb(255 255 255);">Preview</div>  -->
+        <div id="preview" class="bub"style="background-color: rgb(255 255 255);"></div> 
+       
+
+        </main>
+        
+    </div>
+
+    <div><img src="../GitHub-Mark/PNG/GitHub-Mark-Light-120px-plus.png" usemap="#workmap"class="gitty" width="600"></div>
+   
+    <div class="uh">
+        <img  hidden class="myImages" id="myImg" src="../img/hujk.jpg" width="600" height="200" alt="1">
+        <img  hidden class="myImages" id="myImg" src="../img/frog.jpg" width="600" height="200" alt="1">
+        <img  hidden class="myImages" id="myImg" src="../img/jko.jpg" width="600" height="200" alt="1">
+        <img  hidden class="myImages" id="myImg" src="../img/movin.jpg" width="600" height="200" alt="1">
+        <img  hidden class="myImages" id="myImg" src="../img/uing.jpg" width="600" height="200" alt="1">
+        <img  hidden class="myImages" id="myImg" src="../img/koo.jpg" width="600" height="200" alt="1">
+        <img  hidden class="myImages" id="myImg" src="../img/yellow_monkey.jpg" width="600" height="200" alt="1">
+        <img  hidden class="myImages" id="myImg" src="../img/sp.jpg" width="600" height="200" alt="1">
+       
+     <!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal_img-->
+
+     
+     <!--https://jsfiddle.net/snowMonkey/f1zav0ge/-->
+    </div>       
+     <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+      </div> 
+    <script>
+      /*  ( function( d ) {
+          'use strict';
+           var count = 0;
+           var pic = d.getElementById( 'image' );
+               pic.addEventListener( 'click', 
+                function() {
+                  count ++;
+                  if ( count === 2  ) {
+                       pic.classList.remove( 'setting' + count )
+                       count = 0;
+                    }
+        
+                       pic.classList.remove( 'setting' + count );
+                       pic.classList.add( 'setting' + ( count + 1 )  );
+            
+                }, false );
+         }( document ));
+
+         
+         
+         function Change()
+{
+document.getElementById("change").height="200";
+document.getElementById("change").width="200";
+}
+function Revert()
+{
+document.getElementById("change").height="100";
+document.getElementById("change").width="100";
+}
+      */
+     
+      var modal = document.getElementById('myModal');
+// to all images -- note I'm using a class!
+var images = document.getElementsByClassName('myImages');
+// the image in the modal
+var modalImg = document.getElementById("img01");
+// and the caption in the modal
+var captionText = document.getElementById("caption");
+
+// Go through all of the images with our custom class
+for (var i = 0; i < images.length; i++) {
+  var img = images[i];
+  // and attach our click listener for this image.
+  img.onclick = function(evt) {
+    console.log(evt);
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
+}
+
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+     </script>  
+
+
+
+</body>

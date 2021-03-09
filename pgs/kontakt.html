@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!-- Template by html.am -->
+<html>
+<head>
+	<link rel="icon" 
+	type="image/png" 
+	href="../navIcon/1.png">
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style/stylesheetPg2.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+	
+	
+	
+
+<div class="container">
+
+		<nav class="menu">
+			<ul  id="nav-two" class="nav">
+				<audio id="beep-two" controls preload="auto" class="audio">
+					<source src="../audio/beep.mp3" controls autoplay></source>
+					<source src="../audio/beep.ogg" controls autoplay></source>
+				</audio>
+
+				<input type="radio"  name="menu" id="archive" checked>
+				<li>
+					<label for="archive" class="title"><i class="fa fa-folder" href="../index.html"></i>Contact</label>
+					
+					<a href="projects.html">Projects</a>
+					<a href="test.html">Graphic Design</a>
+					<a href="Illustrations.html">Illustration</a>
+                    <a href="../index.html">Exit</a>
+               		</li>
+				<input type="radio" name="menu" id="edit">
+				<li style="height: 110px;">
+					<label for="edit" class="title"><i class="fa fa-edit"></i>About me</label>
+					<a href="../pgs/Stack.html">Stack & Certificates</a>
+					
+					<a   onclick="window.open('../Portfolio.pdf')">Download CV</a>
+					
+				</li>
+		  <!--		<input type="radio" name="menu" id="tools">
+				<li>
+					<label for="tools" class="title"><i class="fa fa-gavel"></i>Tools</label>
+					<a href="#">Build</a>
+					<a href="#">Macros</a>
+					<a href="#">Command</a>
+					<a href="#">Snippets</a>
+				</li>
+				<input type="radio" name="menu" id="preferences">
+				<li>
+					<label for="preferences" class="title"><i class="fa fa-gears"></i>Preferences</label>
+					<a href="#">Browser</a>
+					<a href="#">Settings</a>
+					<a href="#">Packages</a>
+					<a href="#">Theme</a>
+				</li> -->
+			
+					</ul>
+		</nav>
+		
+		
+		<main class="main">
+			
+			
+			<script>
+				$("#nav-two a")
+					.each(function (i) {
+						if (i != 0) {
+							$("#beep-two")
+								.clone()
+								.attr("id", "beep-two" + i)
+								.appendTo($(this).parent());
+						}
+						$(this).data("beeper", i);
+					})
+					.mouseenter(function () {
+						$("#beep-two" + $(this).data("beeper"))[0].play();
+					});
+				$("#beep-two").attr("id", "beep-two0");</script>
+
+			
+			<table>
+				<thead>
+
+					<tr>
+						<th colspan="3" >Contact</th>
+					</tr>
+				</thead>
+			
+			
+			</table>
+			<span style='font-size:47px;'>&#128235;</span>
+			<h1 id="chowN">Do not hesitate to drop me a line.<br/> Always interested in mutual collaboration and building cool things...</h1>
+			<h1 hidden id="chow">Doo not hesitate to drop me a line. Always interested in mutual collaboration and building cool things...</h1>
+			
+			
+			<form action="mailto:felipe.loewenstein@gmx.com" method="post" enctype="text/plain" class="Frm" style="
+    height: 213500px;
+    width: 115px;
+">
+				<!-- https://formspree.io/html-->
+				<!-- https://www.smtpjs.com/ -->
+				<input class="Frm"id="name" type="text" placeholder="name">
+				<input class="Frm" id="email" type="text" placeholder="e-mail">
+				<textarea class="Frm1" id="message" type="text" placeholder="Message"></textarea>
+				<input  id="submit" type="submit" value="Send">
+
+			</form>
+			 
+
+		</main>
+</div>
+
+<div>
+	<img src="../GitHub-Mark/PNG/GitHub-Mark-Light-120px-plus.png" usemap="#workmap"class="gitty" width="600">
+</div> 
+
+
+
+	
+	
+	
+	
+</body>

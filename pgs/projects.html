@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<!-- Template by html.am -->
+<html>
+
+<head>
+    
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;500&display=swap" rel="stylesheet"> 
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="../style/stlyesheetPg4.css">
+
+    <script type="text/javascript" src="../js/foto.js"></script>
+
+	<link rel="icon" 
+	type="image/png" 
+	href="../navIcon/1.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .collapsible {
+            background-color: #664680;
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            display: inline-block;
+            align-items: center;
+            position: relative;
+            
+            border: aqua;
+            border-radius: 5px;
+            text-align: left;
+            font-weight: bold;
+            font-family: 'Source Code Pro', monospace;
+    FONT-WEIGHT: 200;
+    font-size: 17px;
+            margin-left: 2px;
+            outline: none;
+           
+            vertical-align: top;
+            margin-bottom: 6px;
+
+        }
+
+        .active,
+        .collapsible:hover {
+            background-color:#dc2d49;
+        }
+
+        .content {
+            padding: 0 18px;
+            max-height: 0;
+            height: 250px;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            /* background-color: #f1f1f1;*/
+
+
+        }
+        @media screen and (max-width: 600px) {
+            .collapsible {background-color: #806546;}
+            .active,
+        .collapsible:hover { background-color:#0ff16f;}
+        .content{
+            background-color: brown;
+            background: rgba(225 226 144 / 76%);
+            border-radius: 5px;
+        }
+        }
+       
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <nav class="menu">
+            <ul id="nav-two" class="nav">
+
+                <audio id="beep-two" controls preload="auto" class="audio">
+                    <source src="../audio/beep.mp3" controls>
+                    </source>
+                    <source src="../audio/beep.ogg" controls>
+                    </source>
+                </audio>
+                <input type="radio" name="menu" id="archive" checked>
+                <li>
+                    <label for="archive" class="title"><i class="fa fa-folder" href="../index.html"></i>Projects</label>
+
+
+
+                   
+                   
+                    <a href="test.html">Grafic Design</a>
+                    <a href="Illustrations.html">Illustration</a>
+                    <a href="kontakt.html">Contact</a>
+                    <a href="../index.html">Exit</a>
+                </li>
+                <input type="radio" name="menu" id="edit">
+                <li style="height: 110px;">
+					<label for="edit" class="title"><i class="fa fa-edit"></i>About me</label>
+					<a href="../pgs/Stack.html">Stack & Certificates</a>
+					
+					<a  class="rez" onclick="window.open('../Portfolio.pdf')">Download CV</a>
+					
+				</li>
+        <!--        <input type="radio" name="menu" id="tools">
+                <li>
+                    <label for="tools" class="title"><i class="fa fa-gavel"></i>Tools</label>
+                    <a href="#">Build</a>
+                    <a href="#">Macros</a>
+                    <a href="#">Command</a>
+                    <a href="#">Snippets</a>
+                </li>
+                <input type="radio" name="menu" id="preferences">
+                <li>
+                    <label for="preferences" class="title"><i class="fa fa-gears"></i>Preferences</label>
+                    <a href="#">Browser</a>
+                    <a href="#">Settings</a>
+                    <a href="#">Packages</a>
+                    <a href="#">Theme</a>
+           
+                </li>-->
+              
+                       <div class="logo-image">
+            <!--      <img class="img-fluid">-->
+            <map name="workmap">
+                <area shape="rect" coords="34,44,270,350" # href="https://github.com/Dig-Dug?tab=repositories" target="_blank">
+                    
+                  </map>
+                </div>
+            </div>
+            </ul>
+        </nav>
+        <main class="main">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="3">Projects</th>
+                    </tr>
+                </thead>
+               
+                <tbody>
+
+
+                    <script>
+                        $("#nav-two a")
+                            .each(function (i) {
+                                if (i != 0) {
+                                    $("#beep-two")
+                                        .clone()
+                                        .attr("id", "beep-two" + i)
+                                        .appendTo($(this).parent());
+                                }
+                                $(this).data("beeper", i);
+                            })
+                            .mouseenter(function () {
+                                $("#beep-two" + $(this).data("beeper"))[0].play();
+                            });
+                        $("#beep-two").attr("id", "beep-two0");</script>
+
+
+
+
+
+
+
+                </tbody>
+            </table>
+            <h1 class="line-1 anim-typewriter">This is a selection of what I consider to be my most interesting works and where i show in which fields i show more strengths.
+                My experience as a developer covers different projects, and I have really enjoyed the adventure of new challenges without neglecting the fundamentals of programming.<br/> The number of projects and variety of these will obviously increase over time.</h1>
+           
+            <div class="sor">
+                
+
+                <button class="collapsible">AI-Chatbot</button>
+                <div class="content" id="ret">
+                    <img class="chick" title="This is some text I want to display." src="../img/prj/01.png" />
+                    <p id="azure">I carried out this project during my internship at Delphi Systems Berlin. This was achieved with help of Bot Framework and using Node.js within an Azure account. 
+                        Multiple other services were in the same way required for its achievement.
+                      
+                        <a class="ali"style="color: #fd5d5d;" href="https://github.com/Dig-Dug/AI-chatbot-type-dispatch" target="_blank">docs</a>
+                        
+                    
+                    </p>
+                    <br/><br/><br/>
+
+                </div>
+
+            </div>
+            <div>
+
+
+                <button class="collapsible">Managing database-user-accounts</button>
+                <div class="content" id="ret">
+                    <img class="chick"title="This is some text I want to display." src="../img/prj/02.png" />
+                     <p>RESTful API for user authentication or signing in, through a connection to a localhost server and respective addition to a database via MySQL queries.
+                        <a class="ali" style="color: #fd5d5d;" href="https://github.com/Dig-Dug/Managing-Database-User-Accounts" target="_blank">docs</a>
+                        
+                    
+                    </p>
+                    <br/>
+                </div>
+
+            </div>
+            <div>
+
+
+                <button class="collapsible">CMS Project Drahtlos-Grenzenlos</button>
+                <div class="content" id="ret">
+                    <img class="chick" title="This is some text I want to display." src="../img/prj/03.png" />
+                    <p id="funk">Freelance project to commemorate "100 jahre rundfunk" in Königs Wusterhausen. Concluded in collaboration with kulturbund-dahme-spreewald, 
+                        the project was documented and divided into activities, radio podcasts and videos.
+                        <a class="ali" style="color: #fd5d5d;" href="http://drahtlos-grenzenlos.de/" target="_blank">live</a>
+                        
+                    
+                    </p>
+                    <br/>
+                </div>
+
+            </div> 
+            <div>
+
+
+                <button class="collapsible">Vue app user-authentication</button>
+                <div class="content" id="ret">
+                    <img class="chick" title="This is some text I want to display." src="../img/prj/04.png" />
+                    <p id="vue">
+                        the process of adding new users or registering that any type of system requires, built this time wit Vue.js and combined with the assistance of the axios.
+                        <a class="ali" style="color: #fd5d5d;" href="https://github.com/Dig-Dug/Vue-app-user-authentication" target="_blank">docs</a>
+                        
+                    
+                    </p>
+                    <br/>
+                </div>
+
+            </div>
+ <div>
+
+
+                <button class="collapsible">Yahtzee-FX</button>
+                <div class="content" id="ret">
+                    <img class="chick" title="This is some text I want to display." src="../img/prj/05.png" />
+                    <p id="yaht">The classic dice game, implemented with javaFx support, allows players to save the score of their games.
+                        Accomplished like an executable jar file, should run like any app on any system with JRE.
+                        <a class="ali" style="color: #fd5d5d;" href="https://github.com/Dig-Dug/Yahtzee-FX" target="_blank">docs</a>
+                        
+                    
+                    </p>
+                     <br/>
+                </div>
+
+            </div>
+ <div>
+
+
+                <button class="collapsible">XML working-content</button>
+                <div class="content" id="ret">
+                    <img class="chick" title="This is some text I want to display." src="../img/prj/06.png" />
+                    <p>Data storing for a fictitious seminar and an already organized schedule, easy to change on the fly.
+                        <a class="ali" style="color: #fd5d5d;" href="https://github.com/Dig-Dug/XML-working-content-2" target="_blank">docs</a>
+                        
+                    
+                    </p>
+                     <br/>
+                </div>
+
+            </div>
+ <div>
+ 
+
+                <button class="collapsible">savings account with JavaFx</button>
+                <div class="content" id="ret">
+                    <img  class="chick" title="This is some text I want to display." src="../img/prj/07.png" />
+                    <p>A practical calculator with the purpose of integrating it as an app into any bank's system. Allows the client giving their bank account number, calculate 
+                        savings withdrawal or bank deposits.
+                        <a class="ali" style="color: #fd5d5d;" href="https://github.com/Dig-Dug/savings-account-in-JavaFx" target="_blank">docs</a>
+                        
+                    
+                    </p> 
+                    <br/>
+                </div>
+
+            </div>
+
+            
+            <script>
+                var coll = document.getElementsByClassName("collapsible");
+                var i;
+
+                for (i = 0; i < coll.length; i++) {
+                    coll[i].addEventListener("click", function () {
+                        this.classList.toggle("active");
+                        var content = this.nextElementSibling;
+                        if (content.style.maxHeight) {
+                            content.style.maxHeight = null;
+                        } else {
+                            content.style.maxHeight = content.scrollHeight + "px";
+                        }
+                    });
+                }
+            </script>
+
+         <!--   <footer class="footer">
+                <p style="margin-bottom: 20px;
+                line-height: 26px;">
+                    Author: Hege Refsnes<br>
+                    <a  class="aS"href="mailto:hege@example.com">hege@example.com</a>
+                </p>
+            </footer>
+
+-->
+        </main>
+    </div>
+</div>
+   
+<!--
+    <div style="position: relative; top:60px;">
+
+    <div>
+        <p><img class="middle" src="../img/koo.jpg" alt="W3Schools" width="270" height="50"> image with a default alignment.</p><br>
+    </div> 
+    <div>
+        <p><img class="middle" src="../img/koo.jpg" alt="W3Schools" width="270" height="50"> image with a default alignment.</p><br>
+    </div>
+
+    </div>
+-->
+<div><img src="../GitHub-Mark/PNG/GitHub-Mark-Light-120px-plus.png" usemap="#workmap"class="gitty" width="600"></div>
+    
+
+</body>

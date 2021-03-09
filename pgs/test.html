@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<!-- Template by html.am -->
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+	<link rel="icon" 
+	type="image/png" 
+	href="../navIcon/1.png">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="../style/stylesheetGD.css">
+
+	<script type="text/javascript" src="../js/foto.js"></script>
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+
+
+	<div class="container">
+
+		<nav class="menu">
+			<ul id="nav-two" class="nav">
+				<audio id="beep-two" controls preload="auto" class="audio">
+					<source src="../audio/beep.mp3" controls>
+					</source>
+					<source src="../audio/beep.ogg" controls>
+					</source>
+				</audio>
+
+				<input type="radio" name="menu" id="archive" checked>
+				<li>
+					<label for="archive" class="title"><i class="fa fa-folder" href="../index.html"></i>Graphic
+						Design</label>
+
+
+
+
+					<a href="projects.html">Projects</a>
+					<a href="Illustrations.html">Illustrations</a>
+					<a href="kontakt.html">Contact</a>
+					<a href="../index.html">Exit</a>
+
+
+				</li>
+				<input type="radio" name="menu" id="edit">
+				<li style="height: 120px;">
+					<label for="edit" class="title"><i class="fa fa-edit"></i>About me</label>
+					<a href="Stack.html">Stack & Certificates</a>
+
+					<a onclick="window.open('../Portfolio.pdf')">Download CV</a>
+
+				</li>
+
+				<div class="logo-image">
+
+					<map name="workmap">
+						<area shape="rect" coords="34,44,270,350" # href="https://github.com/Dig-Dug?tab=repositories"
+							target="_blank">
+
+					</map>
+				</div>
+			</ul>
+		</nav>
+
+
+
+		<main class="main">
+
+
+			<table id="hd">
+				<thead>
+
+					<tr>
+						<th colspan="">Graphic Design</th>
+					</tr>
+				</thead>
+				<tbody>
+
+
+					<script>
+						$("#nav-two a")
+							.each(function (i) {
+								if (i != 0) {
+									$("#beep-two")
+										.clone()
+										.attr("id", "beep-two" + i)
+										.appendTo($(this).parent());
+								}
+								$(this).data("beeper", i);
+							})
+							.mouseenter(function () {
+								$("#beep-two" + $(this).data("beeper"))[0].play();
+							});
+						$("#beep-two").attr("id", "beep-two0");</script>
+
+
+
+
+					<tr>
+					</tr>
+
+				</tbody>
+			</table>
+
+
+			<!--https://antonandirene.com/    https://www.malikafavre.com/-->
+
+			<!-- <div class="div_content"  style="transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1); transition-duration: 0ms; transform: translate(0px, 0px) translateZ(0px); left: 679px;">
+		<a class="item1" data-color="#af23ff">
+			<span class="item2" id="divo" src="../img/koo.jpg">Zumtobel</span>
+			<span class="item3">Interactive</span>
+			<img  onmouseover="upDate(this)" id="divo" onmouseout="unDo()" src="../img/frog.jpg" />
+		</a>
+		<a class="item1" data-color="#af23ff">
+			<span class="item2">Zumtobel</span>
+			<span class="item3">Interactive</span>
+		</a>
+		<a class="item1" data-color="#af23ff">
+			<span class="item2">Zumtobel</span>
+			<span class="item3">Interactive</span>
+		</a>
+		<a class="item1" data-color="#af23ff">
+			<span class="item2">Zumtobel</span>
+			<span class="item3">Interactive</span>
+		</a>
+		<a class="item1" data-color="#af23ff">
+			<span class="item2">Zumtobel</span>
+			<span class="item3">Interactive</span>
+		</a>
+		<a class="item1" data-color="#af23ff">
+			<span class="item2">Zumtobel</span>
+			<span class="item3">Interactive</span>
+		</a>
+		<a class="item1" data-color="#af23ff">
+			<span class="item2">Zumtobel</span>
+			<span class="item3">Interactive</span>
+		</a>
+	</div>
+	<div style = "left: 60px;"id="preview" ></div>
+-->
+
+
+
+
+
+			<h1>As a graphic designer I have already had some experience. I've been through almost every branch of design. here I present some of the most demonstrative examples</h1>
+			<!--https://codepen.io/love231992/pen/VwvXPGQ-->
+			<!--https://jsfiddle.net/5mtp7tcg/-->
+			<div class="ee">
+				<div class="text-block" id="rok">
+					<h4>Jobs & Clients</h4>
+
+				</div>
+				<div class="dov">
+					<div class="grud">
+
+						<img  onmouseover="upDate(this)" onmouseout="unDo()" id="myImg2"
+							class="myImages" src="../img/gd/clients/fkfg.jpg" alt="logo design for Jenny Kriminski's Studio">
+						<img  onmouseover="upDate(this)" onmouseout="unDo()" id="myImg2"
+							class="myImages" src="../img/gd/clients/jik.jpg" alt="invitation flyer for sauna resort">
+						<img onmouseover="upDate(this)" onmouseout="unDo()" id="myImg2" class="myImages"
+							src="../img/gd/clients/2c.jpg" alt="layout and image manipulation for mattress and bedding web store">
+						<img onmouseover="upDate(this)" onmouseout="unDo()" id="myImg2" class="myImages"
+							src="../img/gd/clients/jdll.jpg" alt="chosen print for J Dilla's tribute exhibition">
+						<img onmouseover="upDate(this)" onmouseout="unDo()" id="myImg2" class="myImages"
+							src="../img/gd/clients/oio.jpg" alt="sticker design for car advertising">
+						<img onmouseover="upDate(this)" onmouseout="unDo()" id="myImg2" class="myImages"
+							src="../img/gd/clients/ikkl.jpg" alt="advertising campaign for optic shop">
+
+
+					</div>
+				</div>
+				<div class="text-block" id="broh">
+					<h4>Corporate Identity</h4>
+
+				</div>
+				<div class="dovo">
+					<div class="grud">
+
+						<img style="
+						margin-right: 10px;" onmouseover="upDate(this)" onmouseout="unDo()" id="myImg"
+							class="myImages" src="../img/gd/cd/hum.jpg" alt="business card design for financial adviser">
+						<img  onmouseover="upDate(this)" onmouseout="unDo()" id="myImg"
+							class="myImages" src="../img/gd/cd/uh.jpg" alt="business card design for fitness center">
+						<img onmouseover="upDate(this)" onmouseout="unDo()" id="myImg" class="myImages"
+							src="../img/gd/cd/mjn.jpg" alt="voucher flyer for fitness center">
+						<img onmouseover="upDate(this)" onmouseout="unDo()" id="myImg" class="myImages"
+							src="../img/gd/cd/uio.jpg" alt="corporate identity for dispatch enterprise">
+
+
+					</div>
+				</div>
+
+				<div id="broh">
+					<div class="text-block" id="rok1" >
+						<h4 id="rok1">Layout for fictional campaign</h4>
+
+					</div>
+				</div>
+				<img src="../img/gd/mpx.jpg" alt="" class="mpx">
+
+
+				<div>
+
+					<div class="north">
+						<div class="text-block">
+							<h4 id="uu">Packaging Design/Character Design in Printing</h4>
+
+						</div>
+
+						<div class="bjrk">
+							<img src="../img/gd/4a.jpg" class="myImages2" alt="!">
+						<div>
+								<p class="text-block3">packaging design/digital printing</p>
+						</div>
+						</div>
+						<div class="pluto">
+							<img src="../img/gd/hhhiio.jpg" class="myImages2" alt="!">
+						<div>
+								<p class="text-block3">character design for different projects</p>
+						</div>
+						</div>
+					</div>
+				</div>
+
+<div>
+				<div class="north1">
+					<div class="text-block" >
+						<h4 id="pbu3">Analogue Photography</h4>
+
+					</div>
+
+				<div class="north2">
+						<img src="../img/gd/photo/j980.jpg" id="myImg3" class="myImages" src="../img/gd/cd/mjn.jpg"
+							alt="Biblioteca de Cali" >
+						<div>
+							<p  class="text-block3" id="incc">Outdoor Photography</p>
+						</div>
+					</div>
+
+					<div class="north2">
+						<img src="../img/gd/photo/26021401.jpg" id="myImg3" class="myImages" alt="Luna">
+						<div class="divo">
+							<p  class="text-block1">Color negative film/Cat "Luna"</p>
+						</div>
+					</div>
+
+				</div>
+
+
+
+					<br>
+
+					<!--
+
+<div class="ccontainer">
+	<div class="imgbox">
+		<div class="img">
+	  <img src="../img/frog.jpg" alt="img" />
+		</div>
+	  </div>
+	<div class="text" style="
+    width: 660px; top:240px;left: 89px;">
+	  <h1>Image Hovering effects</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, earum.Consequatur, fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, earum.</p>
+	  <h1>Journey is ,more beautiful than the destination</h1>
+	</div>
+  </div>  -->
+					<!--https://michalsnik.github.io/aos/-->
+
+
+					<!--
+	<div>
+		<img style="float: left;position: relative;top: 140px;" src="../img/movin.jpg" />
+	</div>
+
+ <p></p>
+<div class="ccontainer">
+	<div class="imgbox">
+		<div class="img">
+	  <img style="position: relative; top: 400px;right: 160px;"src="../img/frog.jpg" alt="img" />
+		</div>
+	  </div>
+	<div class="text" style="
+	width: 660px; top:930px;left: 89px;"> -->
+					<!--https://codepen.io/aliaagheis/pen/wxvQGB-->
+					<!--  <h1>BLAAAAAAAAAAAAAAAAAA</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, earum.Consequatur, fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, earum.</p>
+	  <h1>Journey is ,more beautiful than the destination</h1>
+	</div>
+  </div> 
+
+ 
+	<div>
+		<img style="float: left;position: relative; top: 540px;" src="../img/movin.jpg" />
+	</div>-->
+
+
+					<!--<footer class="footer">
+				<p>
+					Author: Hege Refsnes<br>
+					<a href="mailto:hege@example.com">hege@example.com</a>
+				</p>
+			</footer> -->
+
+		</main>
+		<div id="myModal" class="modal">
+			<span class="close">&times;</span>
+			<img class="modal-content" id="img01">
+			<div id="caption"></div>
+		</div>
+	</div>
+	<!--https://codepen.io/ensay0/pen/GRZxNga-->
+
+	<script>
+		var modal = document.getElementById('myModal');
+		// to all images -- note I'm using a class!
+		var images = document.getElementsByClassName('myImages');
+
+		// the image in the modal
+		var modalImg = document.getElementById("img01");
+		// and the caption in the modal
+		var captionText = document.getElementById("caption");
+
+		// Go through all of the images with our custom class
+		for (var i = 0; i < images.length; i++) {
+			var img = images[i];
+			// and attach our click listener for this image.
+			img.onclick = function (evt) {
+				console.log(evt);
+				modal.style.display = "block";
+				modalImg.src = this.src;
+				captionText.innerHTML = this.alt;
+			}
+		}
+
+		var span = document.getElementsByClassName("close")[0];
+
+		span.onclick = function () {
+			modal.style.display = "none";
+		}
+
+
+
+
+
+
+
+	</script>
+
+	<div><img src="../GitHub-Mark/PNG/GitHub-Mark-Light-120px-plus.png" usemap="#workmap" class="gitty" width="600">
+	</div>
+
+
+</body>

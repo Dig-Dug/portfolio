@@ -1,0 +1,266 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300);
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+.container {
+	width: 100%;
+	height: 100%;
+}
+nav {
+	position: fixed;
+	display: flex;
+	align-items: flex-start;
+	width: 20%;
+	height: 100%;
+	background-color: #111;
+}
+main {
+	position: fixed;
+	right: 0;
+	width: 80%;
+	height: 100%;
+	background-color: #fff;
+	overflow: auto;
+	padding: 40px;
+}
+
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/dino.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+h1 {
+	font-weight: bold;
+	margin-bottom: 50px;
+	font-size: 55px;
+	text-align: center;
+}
+p {
+	margin-bottom: 20px;
+	line-height: 26px;
+}
+p::first-letter {
+	font-size: 200%;
+	font-weight: bold;
+}
+li, ul label.title, ul, a {
+	width: 100%;
+	color: #FFF;
+	font-family: 'Montserrat', 'Open Sans', sans-serif;
+	display: block;
+	font-weight: bold;
+}
+ul label {
+	height: 35px;
+}
+ul li{
+	height: 35px;
+	overflow: hidden;
+	transition: all .3s;
+}
+li {
+	display: block;
+	background-color: #363636;
+}
+label.title {
+	font-size: 14px;
+	background: linear-gradient(#111, #2f2f2f);
+	padding: 10px 15px;
+	cursor: pointer;
+  transition: all .25s;
+}
+a{
+	font-size: 12px;
+	text-decoration: none;
+	color: #FFF;
+	display: block;
+	padding: 10px 25px;
+	transition: all .25s;
+}
+a:hover {
+	background-color: #444;
+  box-shadow: inset 5px 0px 0px 0px #fff;
+}
+label:hover {
+	text-shadow: 0px 0px 10px #fff;
+}
+input[type="radio"] {
+	display: none;
+}
+#edit:checked + li, #archive:checked + li, #tools:checked + li, #preferences:checked + li {
+	height: 179px;
+}
+i {
+	margin-right: 12px;
+}
+@media screen and (max-width: 600px){
+	nav {
+		width: 100%;
+		position: relative;
+	}
+	main {
+		width: 100%;
+		position: relative;
+		overflow-x: hidden;
+	}
+	.img-fluid{
+		display: none;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+html, body { background: #333 url("https://codepen.io/images/classy_fabric.png"); }
+.slider{
+ width: 609px;
+height: 609px;
+
+}
+.slides {
+    padding: 0;
+    width: 609px;
+    height: 420px;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.slides input { display: none; }
+
+.slide-container { display: none; }
+
+.slide {
+    top: 0;
+    opacity: 0;
+    width: 609px;
+    height: 420px;
+    display: block;
+    position: absolute;
+
+    transform: scale(0);
+
+    transition: all .7s ease-in-out;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav label {
+    width: 200px;
+    height: 100%;
+    display: none;
+    position: absolute;
+
+	  opacity: 0;
+    z-index: 9;
+    cursor: pointer;
+
+    transition: opacity .2s;
+
+    color: #FFF;
+    font-size: 156pt;
+    text-align: center;
+    line-height: 380px;
+    font-family: "Varela Round", sans-serif;
+    background-color: rgba(255, 255, 255, .3);
+    text-shadow: 0px 0px 15px rgb(119, 119, 119);
+}
+
+.slide:hover + .nav label { opacity: 0.5; }
+
+.nav label:hover { opacity: 1; }
+
+.nav .next { right: 0; }
+
+input:checked + .slide-container  .slide {
+    opacity: 1;
+
+    transform: scale(1);
+
+    transition: opacity 1s ease-in-out;
+}
+
+input:checked + .slide-container .nav label { display: block; }
+
+.nav-dots {
+	width: 100%;
+	bottom: 9px;
+	height: 11px;
+	display: block;
+	position: absolute;
+	text-align: center;
+}
+
+.nav-dots .nav-dot {
+	top: -5px;
+	width: 11px;
+	height: 11px;
+	margin: 0 4px;
+	position: relative;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-dots .nav-dot:hover {
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+input#img-1:checked ~ .nav-dots label#img-dot-1,
+input#img-2:checked ~ .nav-dots label#img-dot-2,
+input#img-3:checked ~ .nav-dots label#img-dot-3,
+input#img-4:checked ~ .nav-dots label#img-dot-4,
+input#img-5:checked ~ .nav-dots label#img-dot-5,
+input#img-6:checked ~ .nav-dots label#img-dot-6 {
+	background: rgba(0, 0, 0, 0.8);
+}
