@@ -323,7 +323,7 @@ th {
 	  
 	  /* Add Animation */
 	  .modal-content, #caption {  
-		margin-left: 75px;
+		margin-left: 60px;
 		animation-name: zoom;
 		animation-duration: 0.6s;
 	  }
