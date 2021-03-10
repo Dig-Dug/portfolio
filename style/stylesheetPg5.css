@@ -515,6 +515,7 @@ i {
 }
 
 img.log {
+    width: inherit;
     left: -80px;
     position: relative;
     overflow: hidden;
