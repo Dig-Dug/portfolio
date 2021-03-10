@@ -214,6 +214,9 @@ i {
 	right: 6px;
 	overflow-x: hidden;
 }
+.boxx{
+	font-size: 47px;
+}
 @media screen and (max-width: 600px) {
 	nav {
 		width: 100%;
