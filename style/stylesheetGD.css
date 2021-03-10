@@ -570,7 +570,7 @@ i {
 	}
 	.dov {
 		position: relative;
-		left: -28px;
+		left: -34px;
 		right: 50px;
 		width: 401px;
 	}
@@ -580,7 +580,7 @@ i {
 		bottom: 22px;
 	}
 	.dovo {
-		left: -28px;
+		left: -34px;
 		width: 402px;
 		height: 334px;
 	}
@@ -630,12 +630,16 @@ i {
 		top: 124px;
 		left: 12px;
 	}
+	th{
+		line-height: 74px;
+    letter-spacing: 3px;
+	}
 }
 
 @media screen and (max-width: 375px) {
 	th {
 		position: relative;
-		left: 29px;
+		left: 3px;
 	}
 	.text-block {
 		position: relative;
@@ -674,7 +678,7 @@ i {
 		top: 140px;
 		width: 369px;
 		margin-top: -13px;
-		margin-left: -37px;
+		margin-left: -41px;
 	}
 	.text-block3 {
 		top: 131px;
@@ -704,7 +708,7 @@ i {
 @media screen and (max-width: 320px) {
 	th {
 		position: relative;
-		left: -2px;
+		left: -22px;
 	}
 	.text-block {
 		position: relative;
@@ -781,7 +785,7 @@ i {
 	}
 	#rok {
 		position: relative;
-		left: 3px;
+		left: -11px;
 	}
 	#incc {
 		left: 55px;
@@ -826,7 +830,8 @@ th {
 	font-weight: bold;
 	margin-bottom: 50px;
 	font-size: 65px;
-	text-align: left;
+	text-align: center;
+	position: relative;
 }
 
 #preview {
