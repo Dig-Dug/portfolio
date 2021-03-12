@@ -329,17 +329,25 @@ i {
     a.ali {
         position: relative;left: 92px;
         width: min-content;
+        top: 29px;
         border-radius: 7px;
         background-color: aliceblue;
     }
     p {
         position: relative;
         top: 11px;
+        
     }
     #ret {
         margin-top: 0px;
         margin-bottom: 3px;
-        height: 299px;
+        height: 336px;
+    }
+    #ret :nth-child(2){
+        height: 319px;
+    }
+    #ret :nth-child(6){
+        height: 219px;
     }
     .sor {
         margin-top: -31px;
@@ -356,6 +364,7 @@ i {
 @media screen and (max-width: 375px) {
     a.ali {
         left: 69px;
+        
     }
     th {
         position: relative;
@@ -368,7 +377,13 @@ i {
     #ret {
         margin-top: 0px;
         margin-bottom: 5px;
-        height: 334px;
+        height: 383px;
+    }
+    #ret :nth-child(2){
+        height: 319px;
+    }
+    #ret :nth-child(6){
+        height: 219px;
     }
     .sor {
         margin-top: -31px;
@@ -406,6 +421,15 @@ i {
         font-weight: normal;
         line-height: 19px;
     }
+   #funk{
+       font-size: 14px;
+   }
+   #yaht{
+    font-size: inherit;
+   }
+   #jvfx{
+    font-size: inherit;
+   }
 }
 
 .audio {
