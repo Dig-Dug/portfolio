@@ -264,6 +264,7 @@
  	.col--01 {
  		left: 539px;
  	}
+	
  }
 
  @media screen and (max-width: 1024px) {
@@ -285,6 +286,14 @@
  		bottom: 0px;
  		top: 0px;
  	}
+	 main{
+		 overflow-y: auto;
+	 }
+	 html, body {
+		overflow-x: hidden;
+		width: 100%;
+		position: inherit;
+	}
  }
 
  @media screen and (max-width: 768px) {
@@ -304,13 +313,19 @@
  		left: 140px;
  	}
  	#icon {
- 		margin-top: -21px;
+ 		margin-top: 107px;
  	}
  }
 
  @media screen and (max-width: 425px) {
  	main {
- 		height: 53%;
+ 	right: 0;
+    width: 100%;
+    height: 116%;
+    background-color: #ffe80f;
+    overflow: auto;
+    overflow-x: hidden;
+    padding: 40px;
  	}
  	h1 {
  		bottom: 522px;
@@ -349,7 +364,7 @@
  		height: auto;
  	}
  	#icon {
- 		margin-top: 93px;
+ 		margin-top: 216px;
  		left: -133px;
  		font-size: 18px;
  	}
@@ -370,7 +385,7 @@
  		font-size: 75px;
  	}
  	#icon {
- 		margin-top: 74px;
+ 		margin-top: 201px;
  		left: -114px;
  		font-size: 13px;
  	}
@@ -393,7 +408,7 @@
  		font-size: 63px;
  	}
  	#icon {
- 		margin-top: 63px;
+ 		margin-top: 189px;
  		left: -95px;
  		font-size: 11px;
  		letter-spacing: 6px;
@@ -501,7 +516,31 @@
  		display: none;
  	}
  }
+ @media screen and (max-width: 1024px) {
 
+	html, body {
+		overflow-x: hidden;
+		width: 100%;
+		height: 1140px;
+		position: inherit;
+	}
+	main {
+		position: relative;
+		right: 0;
+		width: 100%;
+		height: 116%;
+		background-color: #ffe80f;
+		overflow: auto;
+		overflow-x: hidden;
+		overflow-y: hidden;
+		padding: 40px;
+	}
+	h2{
+		top: 151px;
+	}
+
+
+ }
  @media screen and (max-width: 888px) {
  	.fp {
  		font-size: 21px;
