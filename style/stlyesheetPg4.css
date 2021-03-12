@@ -421,14 +421,18 @@ i {
         font-weight: normal;
         line-height: 19px;
     }
+    #azure {
+        
+        font-size: 14px;
+    }
    #funk{
-       font-size: 14px;
+       font-size: 12px;
    }
    #yaht{
-    font-size: inherit;
+    font-size: 14px;
    }
    #jvfx{
-    font-size: inherit;
+    font-size: 14px;
    }
 }
 
