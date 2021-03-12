@@ -207,6 +207,13 @@ i {
     grid-gap: 1rem;
 }
 
+h1.showH1 {
+    display: inline;
+}
+
+.showH2 {
+    display: block
+}
 @media screen and (max-width: 768px) {
     .skills .skill>div span:first-child {
         display: inline-block;
@@ -415,7 +422,7 @@ i {
         left: 70px;
     }
     h1.showH1 {
-        display: inline;
+        display: none;
         position: relative;
         letter-spacing: 0px;
         text-align: end;
@@ -425,8 +432,34 @@ i {
         letter-spacing: -2px;
         word-spacing: -4px;
     }
+    .showH1a{
+        display: inline  !important;
+        font-weight: 300;
+        font-size: larger;
+        line-height: normal;
+    }
+    h1.log1 {
+        position: relative;
+        bottom: -30px;
+        margin-bottom: 0px;
+        margin-top: 24px;
+        display: block;
+        text-align: center;
+        margin: auto;
+        text-decoration: underline;
+    }
+   
     h1:nth-child(3) {
-        top: -9px;
+        position: relative;
+        text-align: center;
+        top: -56px;
+        font-weight: 300;
+        font-size: larger;
+        text-decoration: none;
+        word-spacing: -9px;
+    }
+    #th1 {
+        letter-spacing: 2px;
     }
     img.cert {
         margin-bottom: 86px;
@@ -445,6 +478,7 @@ i {
     }
     svg.log{
         top: 35px;
+        margin-bottom: 40px;
     }
 }
 
@@ -457,19 +491,25 @@ i {
        left: 2px;
     }
     svg.log {bottom: 23px;
-        width: 386px;
+        width: 377px;
         right: 46px;
     }
     #th1 {
         font-size: 57px;
+        left: -24px;
     }
     .grid {
         bottom: 112px;
         right: -18px;
+        margin-top: 84px;
     }
     #grow {
         position: relative;
         bottom: 114px;
+    }
+    img.cert {
+        
+        width: 104px;
     }
 }
 
@@ -483,10 +523,11 @@ i {
     h1:nth-child(3) {
         top: -38px;
     }
-    svg.log {top: -24px;
-        width: 337px;
-        right: 46px;
-        bottom: 50px;
+    svg.log {    top: 8px;
+        width: 404px;
+        right: 81px;
+        padding: inherit;
+        bottom: 50px; 
     }
     h1:nth-last-of-type(3) {
         top: -30px;
@@ -529,13 +570,7 @@ h1 {
     display: none;
 }
 
-h1.showH1 {
-    display: inline;
-}
 
-.showH2 {
-    display: block
-}
 
 .audio {
     display: none;
