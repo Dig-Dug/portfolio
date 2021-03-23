@@ -456,7 +456,7 @@ h1.showH1 {
         font-weight: 300;
         font-size: larger;
         text-decoration: none;
-        word-spacing: -9px;
+        word-spacing: -3px;
     }
     #th1 {
         letter-spacing: 2px;
