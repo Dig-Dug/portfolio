@@ -307,10 +307,7 @@ h1.showH1 {
     h1.showH2 {
         display: block;
     }
-    /**TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT**/
-    /**TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT**/
-    /**TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT**/
-    /**TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT**/
+ 
     .line-1 {
         display: block !important;
         position: relative;
@@ -347,10 +344,7 @@ h1.showH1 {
             border-right-color: transparent;
         }
     }
-    /**TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT**/
-    /**TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT**/
-    /**TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT**/
-    /**TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT**/
+  
 }
 
 @media screen and (max-width: 1440px) {
@@ -375,7 +369,7 @@ h1.showH1 {
         transition: all .25s;
         letter-spacing: 4px;
         overflow: initial;
-        /*display: table-cell;*/
+       
     }
     nav {
         position: fixed;
@@ -585,8 +579,6 @@ table {
 }
 
 td {
-    /*Centering cell content: images*/
-    /*text-align: center;*/
     margin: 0 10px 0 0;
 }
 
@@ -615,7 +607,7 @@ th {
     font-size: 2em;
 }
 
-/*collapsable*/
+
 
 div>img {
     object-fit: contain;
@@ -672,16 +664,7 @@ div>img {
     font-weight: 10;
 }
 
-/*
-  .skills .skill > div:first-of-type span:first-child{background: #BD4B00}
-  .skills .skill > div:nth-of-type(2) span:first-child{background: #2573A6}
-  .skills .skill > div:nth-of-type(3) span:first-child{background: #283848}
-  .skills .skill > div:nth-of-type(4) span:first-child{background: #3F3F54}
-  .skills .skill > div:nth-of-type(5) span:first-child{background: #10467E}
-  .skills .skill > div:nth-of-type(6) span:first-child{background: #239C56}
-  .skills .skill > div:nth-of-type(7) span:first-child{background: #ca7d34}
-  .skills .skill > div:nth-of-type(8) span:first-child{background: #84239c}
-  */
+
 
 .skills .skill>div:first-of-type span:first-child {
     background: #000000
@@ -738,15 +721,7 @@ div>img {
     object-fit: contain;
 }
 
-/*
-  .skills .skill > div:first-of-type span:last-child{background: #E67E22}
-  .skills .skill > div:nth-of-type(2) span:last-child{background: #3498DB}
-  .skills .skill > div:nth-of-type(3) span:last-child{background: #2C3E50}
-  .skills .skill > div:nth-of-type(4) span:last-child{background: #5A68A5}
-  .skills .skill > div:nth-of-type(5) span:last-child{background: #4288D0}
-  .skills .skill > div:nth-of-type(6) span:last-child{background: #2ECC71}
-  .skills .skill > div:nth-of-type(7) span:last-child{background: #de9e62}
-  .skills .skill > div:nth-of-type(8) span:last-child{background: #ab4fc1}*/
+
 
 .skills .skill>div:first-of-type span:last-child {
     background: #0343cf
