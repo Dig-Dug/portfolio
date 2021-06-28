@@ -62,11 +62,11 @@ window.onload = function () {
     
     var progreeBar = document.getElementsByClassName("progress");
         
-        progreeBar[0].style.width = "59%";
+       progreeBar[0].style.width = "59%";
         progreeBar[1].style.width = "59%";
         progreeBar[2].style.width = "70%";
         progreeBar[3].style.width = "70%";
-        progreeBar[4].style.width = "65%";
+        progreeBar[4].style.width = "63%";
         progreeBar[5].style.width = "59%";
         progreeBar[6].style.width = "59%";
         progreeBar[7].style.width = "70%";
