@@ -214,6 +214,26 @@ h1.showH1 {
 .showH2 {
     display: block
 }
+b.jsph{
+    font-size: 11px;
+}
+
+@media screen and (max-width: 1711px) {
+    b.jsph{font-size: 8px;}
+    
+}
+@media screen and (max-width: 882px) {
+    b.jsph{font-size: 7px;}
+    
+}
+@media screen and (max-width: 684px) {
+    b.rvu{font-size: 14px;}
+    
+}
+@media screen and (max-width: 836px) {
+    b.whaW{font-size: 12px;}
+    
+}
 @media screen and (max-width: 768px) {
     .skills .skill>div span:first-child {
         display: inline-block;
