@@ -102,10 +102,10 @@ p {
     bottom: 40px;
 }
 
-p::first-letter {
+/*p::first-letter {
     font-size: 148%;
     font-weight: 300;
-}
+}*/
 
 #grow {
     bottom: -30px;
