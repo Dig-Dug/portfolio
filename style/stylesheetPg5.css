@@ -217,7 +217,150 @@ h1.showH1 {
 b.jsph{
     font-size: 11px;
 }
+ /*
+                .:.               
+             .::::.             
+..         ..::::::''::         
+::::..  .::''''':::    ''.      
+':::::::'         '.  ..  '.    
+ ::::::'            : '::   :   
+  :::::     .        : ':'   :  
+  :::::    :::       :.     .'. 
+ .::::::    ':'     .' '.:::: : 
+ ::::::::.         .    ::::: : 
+:::::    '':.... ''      '''' : 
+':::: .:'              ...'' :  
+ ..::.   '.........:::::'   :   
+  '':::.   '::'':'':::'   .'    
+        '..  ''.....'  ..'      
+           ''........''
+  */
+  .doIt{
+    overflow: hidden;
+    top: 10px;
+    font-size: large;
+    font-weight: bold;
+  }
+  span{
+      justify-content: left;
+  }
+  h2.showH1 {
+    display: inline;
+}
+  .showH7{
+      position: relative; right: 349px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    margin-bottom: 50px;
+    font-size: 25px;
+  }
+.containerG {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 7px 10px; 
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . .";
+    width: 98.6%;
+    height: 100%;
+  }
+  .containerG1 {
+      
+    margin-top: 9px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 7px 10px;  
+    margin-bottom: -1px;
+    grid-template-areas: 
+      ". . ."
+      ". . ."; 
+  }
+  .h2Btn{
+    background-color: rgb(239 128 177);
+    border-top-right-radius: 13px; border: none; cursor: pointer;
+   }
+   .h2Btn:hover {
+    background-color: #2a4e2c;
+    color: white;
+   
+  }
+  .h2Btn:hover span {display:none}
+  .h2Btn:hover:before {content:"80%   ";  left: 2px;}
+   
 
+  
+  
+  .h2Btna{
+    background-color: rgb(67 189 216);border-top-right-radius: 13px;border: none;cursor: pointer;
+  } 
+  .h2Btna:hover {background-color: #2a4e2c;
+     color: white;}
+     .h2Btna:hover span {display:none}
+     .h2Btna:hover:before {content:"75%   ";  left: 2px;} 
+
+     .h2Btna:nth-child(2):hover:before {content:"60%   ";  left: 2px;} 
+     .h2Btna:nth-child(3):hover:before {content:"60%   ";  left: 2px;} 
+     .h2Btna:nth-child(4):hover:before {content:"75%   ";  left: 2px;} 
+     .h2Btna:nth-child(5):hover:before {content:"80%   ";  left: 2px;} 
+     
+
+
+
+
+
+  .h2Btnb{
+    background-color: rgb(132 185 189);border-top-right-radius: 13px;border: none;cursor: pointer;
+  }  .h2Btnb:hover{background-color: #2a4e2c;
+     color: white;}
+     .h2Btnb:hover span {display:none}
+     .h2Btnb:hover:before {content:"60%   ";  left: 2px;} 
+
+     .h2Btnb:nth-child(2):hover:before {content:"70%   ";  left: 2px;} 
+     .h2Btnb:nth-child(3):hover:before {content:"65%   ";  left: 2px;} 
+     .h2Btnb:nth-child(4):hover:before {content:"55%   ";  left: 2px;} 
+     
+
+ .h2Btnc{
+    background-color: rgb(95 175 196);border-top-right-radius: 13px;border: none;cursor: pointer;
+  } .h2Btnc:hover{background-color: #2a4e2c;
+     color: white;}
+     .h2Btnc:hover span {display:none}
+     .h2Btnc:hover:before {content:"80%   ";  left: 2px;} 
+     .h2Btnc:nth-child(2):hover:before {content:"85%   ";  left: 2px;} 
+
+
+  .h2Btnd{
+    background-color: rgb(245 154 41);border-top-right-radius: 13px;border: none;cursor: pointer;
+  } .h2Btnd:hover{background-color: #2a4e2c;
+     color: white;}
+     .h2Btnd:hover span {display:none}
+     .h2Btnd:hover:before {content:"75%   ";  left: 2px;} 
+     .h2Btnd:nth-child(2):hover:before {content:"85%   ";  left: 2px;} 
+     .h2Btnd:nth-child(3):hover:before {content:"70%   ";  left: 2px;} 
+
+  .Grod{
+    padding-right: 299px;
+  }
+  /*
+                .:.               
+             .::::.             
+..         ..::::::''::         
+::::..  .::''''':::    ''.      
+':::::::'         '.  ..  '.    
+ ::::::'            : '::   :   
+  :::::     .        : ':'   :  
+  :::::    :::       :.     .'. 
+ .::::::    ':'     .' '.:::: : 
+ ::::::::.         .    ::::: : 
+:::::    '':.... ''      '''' : 
+':::: .:'              ...'' :  
+ ..::.   '.........:::::'   :   
+  '':::.   '::'':'':::'   .'    
+        '..  ''.....'  ..'      
+           ''........''
+  */
 @media screen and (max-width: 1711px) {
     b.jsph{font-size: 8px;}
     
