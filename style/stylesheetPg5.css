@@ -361,6 +361,182 @@ b.jsph{
         '..  ''.....'  ..'      
            ''........''
   */
+
+/*
+
+        _,,aaaaa,,_
+                          _,dP"''    `""""Ya,_
+                       ,aP"'                `"Yb,_
+                     ,8"'                       `"8a,
+                   ,8"                             `"8,_
+                 ,8"                                  "Yb,
+               ,8"                                      `8,
+              dP'                                        8I
+            ,8"                           bg,_          ,P'
+           ,8'                              "Y8"Ya,,,,ad"
+          ,d"                            a,_ I8   `"""'
+         ,8'                              ""888
+         dP     __                           `Yb,
+        dP'  _,d8P::::Y8b,                     `Ya
+   ,adba8',d88P::;;::;;;:"b:::Ya,_               Ya
+  dP":::"Y88P:;P"""YP"""Yb;::::::"Ya,             "Y,
+  8:::::::Yb;d" _  "_    dI:::::::::"Yb,__,,gd88ba,db
+  Yb:::::::"8(,8P _d8   d8:::::::::::::Y88P"::::::Y8I
+  `Yb;:::::::""::"":b,,dP::::::::::::::::::;aaa;:::8(
+    `Y8a;:::::::::::::::::::::;;::::::::::8P""Y8)::8I
+      8b"ba::::::::::::::::;adP:::::::::::":::dP::;8'
+      `8b;::::::::::::;aad888P::::::::::::::;dP::;8'
+       `8b;::::::::""""88"  d::::::::::b;:::::;;dP'
+         "Yb;::::::::::Y8bad::::::::::;"8Paaa""'
+           `"Y8a;;;:::::::::::::;;aadP""
+               ``""Y88bbbdddd88P""8b,-
+8I:::;""":::::;dP I8P"::::::::::;a8"a8P"     "b:P
+Yb::::"8baa8"""'  8;:;d"::::::::d8P"'         8"
+ "YbaaP::8;P      `8;d::;a::;;;;dP           ,8
+    `"Y8P"'         Yb;;d::;aadP"           ,d'
+                     "YP:::"P'             ,d'
+                       "8bdP'    _        ,8'
+      Normand         ,8"`""Yba,d"      ,d"
+      Veilleux       ,P'     d"8'     ,d"
+                    ,8'     d'8'     ,P'
+                    (b      8 I      8,
+                     Y,     Y,Y,     `b,
+               ____   "8,__ `Y,Y,     `Y""b,
+           ,adP""""b8P""""""""Ybdb,        Y,
+         ,dP"    ,dP'            `""       `8
+        ,8"     ,P'                        ,P
+        8'      8)                        ,8'
+        8,      Yb                      ,aP'
+        `Ya      Yb                  ,ad"'
+          "Ya,___ "Ya             ,ad"'
+            ``""""""`Yba,,,,,,,adP"'
+                       `"""""""'
+*/
+@media screen and (max-width: 600px) {
+
+    .Grod{
+        display: grid !important;
+        padding-right: 0px;  
+        
+    }
+    .doIt{
+        text-decoration: underline;
+        overflow: hidden;
+        top: 10px;
+        font-size: large;
+        font-weight: bold;
+      }
+    .containerr1{
+   
+        display: grid !important;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 0.5fr 0fr;
+        grid-auto-columns: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          ". . ."
+          ". . .";
+        width: 98.6%;
+        height: 100%;
+    
+      
+}
+.containerr2 {
+    display: grid !important; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 0.5fr 1fr 0fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". . ."
+      ". . ."
+      ". . ."; 
+  }
+  .containerr3 {
+    display: grid !important; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 0.5fr 1fr 0fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". . ."
+      ". . ."
+      ". . ."; 
+  }
+}
+
+@media screen and (max-width: 320px) {
+.main{
+    padding-left: 11px;
+}
+
+#th1 {
+padding-left: 0px;
+}
+th{
+height: 166px;
+}
+}
+
+
+
+
+
+
+
+
+
+/*
+
+        _,,aaaaa,,_
+                          _,dP"''    `""""Ya,_
+                       ,aP"'                `"Yb,_
+                     ,8"'                       `"8a,
+                   ,8"                             `"8,_
+                 ,8"                                  "Yb,
+               ,8"                                      `8,
+              dP'                                        8I
+            ,8"                           bg,_          ,P'
+           ,8'                              "Y8"Ya,,,,ad"
+          ,d"                            a,_ I8   `"""'
+         ,8'                              ""888
+         dP     __                           `Yb,
+        dP'  _,d8P::::Y8b,                     `Ya
+   ,adba8',d88P::;;::;;;:"b:::Ya,_               Ya
+  dP":::"Y88P:;P"""YP"""Yb;::::::"Ya,             "Y,
+  8:::::::Yb;d" _  "_    dI:::::::::"Yb,__,,gd88ba,db
+  Yb:::::::"8(,8P _d8   d8:::::::::::::Y88P"::::::Y8I
+  `Yb;:::::::""::"":b,,dP::::::::::::::::::;aaa;:::8(
+    `Y8a;:::::::::::::::::::::;;::::::::::8P""Y8)::8I
+      8b"ba::::::::::::::::;adP:::::::::::":::dP::;8'
+      `8b;::::::::::::;aad888P::::::::::::::;dP::;8'
+       `8b;::::::::""""88"  d::::::::::b;:::::;;dP'
+         "Yb;::::::::::Y8bad::::::::::;"8Paaa""'
+           `"Y8a;;;:::::::::::::;;aadP""
+               ``""Y88bbbdddd88P""8b,-
+8I:::;""":::::;dP I8P"::::::::::;a8"a8P"     "b:P
+Yb::::"8baa8"""'  8;:;d"::::::::d8P"'         8"
+ "YbaaP::8;P      `8;d::;a::;;;;dP           ,8
+    `"Y8P"'         Yb;;d::;aadP"           ,d'
+                     "YP:::"P'             ,d'
+                       "8bdP'    _        ,8'
+      Normand         ,8"`""Yba,d"      ,d"
+      Veilleux       ,P'     d"8'     ,d"
+                    ,8'     d'8'     ,P'
+                    (b      8 I      8,
+                     Y,     Y,Y,     `b,
+               ____   "8,__ `Y,Y,     `Y""b,
+           ,adP""""b8P""""""""Ybdb,        Y,
+         ,dP"    ,dP'            `""       `8
+        ,8"     ,P'                        ,P
+        8'      8)                        ,8'
+        8,      Yb                      ,aP'
+        `Ya      Yb                  ,ad"'
+          "Ya,___ "Ya             ,ad"'
+            ``""""""`Yba,,,,,,,adP"'
+                       `"""""""'
+*/
 @media screen and (max-width: 1711px) {
     b.jsph{font-size: 8px;}
     
@@ -670,41 +846,7 @@ b.jsph{
     }
 }
 
-@media screen and (max-width: 320px) {
-    th {
-        left: 30px;
-    }
-    h1.showH1 {
-        left: -1px;bottom: 102px;
-    }
-    h1:nth-child(3) {
-        top: -38px;
-    }
-    svg.log {    top: 8px;
-        width: 404px;
-        right: 81px;
-        padding: inherit;
-        bottom: 50px; 
-    }
-    h1:nth-last-of-type(3) {
-        top: -30px;
-    }
-    h1:nth-last-of-type(2) {
-        top: -49px;
-    }
-    #th1 {
-        font-size: 49px;
-        letter-spacing: 2px;
-        left: -28px;
-    }
-    .grid {
-        bottom: 112px;
-        right: -18px;
-    }
-    img.cert {
-        width: 81px;
-    }
-}
+
 
 @media screen and (max-width: 900px) {
     .gitty {
@@ -770,7 +912,42 @@ th {
     font-size: 2em;
 }
 
-
+@media screen and (max-width: 320px) {
+    th {
+        left: 30px;
+        height: 166px;
+    }
+    h1.showH1 {
+        left: -1px;bottom: 102px;
+    }
+    h1:nth-child(3) {
+        top: -38px;
+    }
+    svg.log {    top: 8px;
+        width: 404px;
+        right: 81px;
+        padding: inherit;
+        bottom: 50px; 
+    }
+    h1:nth-last-of-type(3) {
+        top: -30px;
+    }
+    h1:nth-last-of-type(2) {
+        top: -49px;
+    }
+    #th1 {
+        font-size: 49px;
+        letter-spacing: 2px;
+        left: 0px;
+    }
+    .grid {
+        bottom: 112px;
+        right: -18px;
+    }
+    img.cert {
+        width: 81px;
+    }
+}
 
 div>img {
     object-fit: contain;
