@@ -32,7 +32,16 @@ h4 {
 .pluto {
 	display: inline-block;
 }
-
+.containerGK{
+	display: grid; 
+	grid-template-columns: 1fr; 
+	grid-template-rows: 1fr 0.5fr 0.5fr;
+	gap: 0px 0px; 
+	grid-template-areas: 
+	  "."
+	  "."
+	  "."; 
+}
 nav {
 	position: fixed;
 	display: flex;
@@ -373,6 +382,7 @@ i {
 
 .north1 {
 	display: inline-block;
+	margin-top: 46px;
 }
 
 .north2 {
@@ -690,6 +700,7 @@ i {
 	.north1 {
 		position: relative;
 		right: 23px;
+		margin-top: 46px;
 	}
 	#myImg3 {
 		margin-top: 14px;
@@ -768,6 +779,7 @@ i {
 	}
 	.north1 {
 		bottom: 105px;
+		top: 34px;
 	}
 	#myImg3 {
 		position: relative;
