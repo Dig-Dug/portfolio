@@ -32,6 +32,23 @@ h4 {
 .pluto {
 	display: inline-block;
 }
+/***************************************************************************************************/
+.container3 {
+	display: grid; 
+	grid-template-columns: 0fr 0fr 1fr;
+    gap: 3px 13px;
+  }
+  .container2E{
+	display: grid; 
+	grid-template-columns: 1fr; 
+	grid-template-rows: 0.3fr 1.2fr; 
+	gap: 0px 0px; 
+	grid-template-areas: 
+	  "."
+	  "."; 
+  }
+  /***************************************************************************************************/
+
 .containerGK{
 	display: grid; 
 	grid-template-columns: 1fr; 
@@ -81,9 +98,10 @@ main {
 	margin-bottom: 90px;
 }
 
+/***************************************************************************************************/
 .mpx {
 	margin-top: 150px;
-	width: 70%;
+	width: 101%;
 }
 
 .mpx1 {
