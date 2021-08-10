@@ -16,6 +16,13 @@ body {
 .bjrk {
 	display: inline-block;
 }
+/***********************************************************************/
+.yes{
+	width: 307px; margin-top: 154px;
+	width: 264px;
+}
+
+/***********************************************************************/
 
 .container {
 	width: 100%;
@@ -528,6 +535,11 @@ i {
 	.mpx {
 		width: 91%;
 	}
+	/*************************************************************************************/
+	.container3{
+		gap: 3px 33px;
+	}
+	/*************************************************************************************/
 }
 
 @media screen and (max-width: 768px) {
@@ -584,6 +596,40 @@ i {
 	}
 	
 }
+/*************************************************************************************/
+@media screen and (max-width: 679px) {
+	.container3{
+		grid-template-columns: -1fr 0fr 1fr;
+		gap: 26px;
+	}
+	.container2E{
+		visibility: hidden;
+		margin-left: 70px;
+	}
+	#rok1{
+		visibility: hidden;
+	}
+	
+	.text-block5{
+	visibility: visible !important;
+	position: relative;
+	width: fit-content;
+	bottom: 20px;
+	top: 90px;
+	left: 10px;
+	right: 20px;
+	border-radius: 11px;
+	background-color: black;
+	color: white;
+	padding-left: 20px;
+	text-align: center;
+	padding-right: 20px;
+
+	}
+	
+	
+}
+/*************************************************************************************/
 
 @media screen and (max-width: 425px) {
 	h1 {
