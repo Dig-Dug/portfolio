@@ -18,9 +18,11 @@ body {
 }
 /***********************************************************************/
 .yes{
-	width: 307px; margin-top: 154px;
-	width: 264px;
+	width: 307px; 
+	margin-top: 154px;
+	
 }
+
 
 /***********************************************************************/
 
@@ -599,35 +601,44 @@ i {
 /*************************************************************************************/
 @media screen and (max-width: 679px) {
 	.container3{
-		grid-template-columns: -1fr 0fr 1fr;
-		gap: 26px;
+		display: block; 
+		grid-auto-flow: column; 
+		grid-template-columns: 1fr 1fr 1fr; 
+		grid-template-rows: 1fr; 
+		gap: 0px 0px; 
+		grid-template-areas: 
+		  ". . ."; 
+		justify-content: space-between; 
+		align-content: start;
+
+	  
 	}
 	.container2E{
-		visibility: hidden;
-		margin-left: 70px;
+		margin-top: -128px;
+		margin-bottom: -202px;
+		margin-left: 21px;
 	}
+
+	/*
 	#rok1{
 		visibility: hidden;
-	}
-	
-	.text-block5{
-	visibility: visible !important;
-	position: relative;
-	width: fit-content;
-	bottom: 20px;
-	top: 90px;
-	left: 10px;
-	right: 20px;
-	border-radius: 11px;
-	background-color: black;
-	color: white;
-	padding-left: 20px;
-	text-align: center;
-	padding-right: 20px;
-
+	}*/
+	.myImages{
+		width: fit-content;
 	}
 	
 	
+	
+}
+@media screen and (max-width: 679px) {
+	.container3{
+		margin-left: 119px;
+	}
+}
+@media screen and (max-width: 512px) {
+	.container3{
+		margin-left: 53px;
+	}
 }
 /*************************************************************************************/
 
@@ -711,6 +722,14 @@ i {
 }
 
 @media screen and (max-width: 375px) {
+	/*********************************************************************************************/
+	.container3{
+		margin-left: -40px;
+	}
+	.container2E{
+		margin-bottom: -361px;
+	}
+	/*********************************************************************************************/
 	th {
 		position: relative;
 		left: 3px;
