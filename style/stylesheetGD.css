@@ -1021,3 +1021,20 @@ element.style {
 	transition-timing-function: cubic-bezier(.175, .885, .32, 1.275);
 	transition-property: opacity, transform;
 }
+
+.interior {
+	margin-top: 144px;
+	display: grid; 
+  grid-template-columns: 0fr 0fr; 
+  grid-template-rows: 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". ."
+    ". ."; 
+  }
+  #myImgInt {
+    cursor: pointer;
+    transition: 0.3s;
+    width: 304px;
+    margin-right: 9px;
+}
