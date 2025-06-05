@@ -3,6 +3,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;500&display=swap);
+
 * {
 	margin: 0;
 	padding: 0;
@@ -16,11 +17,12 @@ body {
 .bjrk {
 	display: inline-block;
 }
+
 /***********************************************************************/
-.yes{
-	width: 307px; 
+.yes {
+	width: 307px;
 	margin-top: 154px;
-	
+
 }
 
 
@@ -41,33 +43,37 @@ h4 {
 .pluto {
 	display: inline-block;
 }
+
 /***************************************************************************************************/
 .container3 {
-	display: grid; 
+	display: grid;
 	grid-template-columns: 0fr 0fr 1fr;
-    gap: 3px 13px;
-  }
-  .container2E{
-	display: grid; 
-	grid-template-columns: 1fr; 
-	grid-template-rows: 0.3fr 1.2fr; 
-	gap: 0px 0px; 
-	grid-template-areas: 
-	  "."
-	  "."; 
-  }
-  /***************************************************************************************************/
-
-.containerGK{
-	display: grid; 
-	grid-template-columns: 1fr; 
-	grid-template-rows: 1fr 0.5fr 0.5fr;
-	gap: 0px 0px; 
-	grid-template-areas: 
-	  "."
-	  "."
-	  "."; 
+	gap: 3px 13px;
 }
+
+.container2E {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 0.3fr 1.2fr;
+	gap: 0px 0px;
+	grid-template-areas:
+		"."
+		".";
+}
+
+/***************************************************************************************************/
+
+.containerGK {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 0.5fr 0.5fr;
+	gap: 0px 0px;
+	grid-template-areas:
+		"."
+		"."
+		".";
+}
+
 nav {
 	position: fixed;
 	display: flex;
@@ -124,7 +130,7 @@ main {
 	border-style: solid;
 	border-color: black;
 	width: 1130px;
-	height: 238px;
+	height: 399px;
 	border-radius: 11px;
 	margin-top: 170px;
 	position: relative;
@@ -245,7 +251,10 @@ p {
 	bottom: 40px;
 }
 
-li, ul label.title, ul, a {
+li,
+ul label.title,
+ul,
+a {
 	width: 100%;
 	color: #FFF;
 	font-family: 'Source Code Pro', monospace;
@@ -303,7 +312,10 @@ input[type="radio"] {
 	display: none;
 }
 
-#edit:checked+li, #archive:checked+li, #tools:checked+li, #preferences:checked+li {
+#edit:checked+li,
+#archive:checked+li,
+#tools:checked+li,
+#preferences:checked+li {
 	height: 189px;
 }
 
@@ -401,7 +413,8 @@ i {
 
 /* Add Animation */
 
-.modal-content, #caption {
+.modal-content,
+#caption {
 	margin-left: auto;
 	animation-name: zoom;
 	animation-duration: 0.6s;
@@ -421,6 +434,7 @@ i {
 	from {
 		transform: scale(0)
 	}
+
 	to {
 		transform: scale(1)
 	}
@@ -436,7 +450,8 @@ i {
 	transition: 0.3s;
 }
 
-.close:hover, .close:focus {
+.close:hover,
+.close:focus {
 	color: #bbb;
 	text-decoration: none;
 	cursor: pointer;
@@ -456,9 +471,11 @@ i {
 		overflow: auto;
 		padding: 40px;
 	}
+
 	.rez {
 		height: inherit;
 	}
+
 	a {
 		FONT-WEIGHT: 200;
 		font-size: 12px;
@@ -470,6 +487,7 @@ i {
 		overflow: initial;
 		/*display: table-cell;*/
 	}
+
 	nav {
 		position: fixed;
 		display: contents;
@@ -479,20 +497,26 @@ i {
 		background-color: rgb(190, 60, 60);
 		overflow: auto;
 	}
-	.modal-content, #caption {
+
+	.modal-content,
+	#caption {
 		margin-left: auto;
 		animation-name: zoom;
 		animation-duration: 0.6s;
 	}
-	.close:hover, .close:focus {
+
+	.close:hover,
+	.close:focus {
 		color: #bbb;
 		text-decoration: none;
 		cursor: pointer;
 		margin-right: auto;
 	}
+
 	.close {
 		right: 163px;
 	}
+
 	.gitty {
 		display: none;
 	}
@@ -505,42 +529,52 @@ i {
 		right: 27px;
 		bottom: 14px;
 	}
+
 	.close {
 		right: 49px;
 	}
+
 	.dov {
 		width: 955px;
 		height: 189px;
 	}
+
 	.dovo {
 		width: 950px;
 		height: 258px;
 	}
+
 	#myImg {
 		right: 24px;
 		position: relative;
 		width: 216px;
 	}
+
 	.myImages2 {
 		width: 461px;
 		margin-top: 172px;
 	}
+
 	#myImg3 {
 		width: 430px;
 	}
+
 	.text-block1 {
 		bottom: 42px;
 		right: -257px;
 		width: 236px;
 		font-size: 12px;
 	}
+
 	.mpx {
 		width: 91%;
 	}
+
 	/*************************************************************************************/
-	.container3{
+	.container3 {
 		gap: 3px 33px;
 	}
+
 	/*************************************************************************************/
 }
 
@@ -550,23 +584,29 @@ i {
 		width: 196px;
 		height: auto;
 	}
+
 	main {
 		overflow-x: hidden;
 	}
+
 	.mpx {
 		width: 100%;
 	}
+
 	.dov {
 		width: 695px;
 		height: 448px;
 	}
+
 	.dovo {
 		width: 694px;
 		height: 525px;
 	}
+
 	#myImg {
 		width: 302px;
 	}
+
 	.myImages2 {
 		position: relative;
 		top: 140px;
@@ -574,20 +614,25 @@ i {
 		margin-top: -13px;
 		margin-left: 68px;
 	}
+
 	.text-block3 {
 		top: 124px;
 		left: 185px;
 	}
+
 	.pluto {
 		margin-bottom: 90px;
 	}
+
 	#myImg3 {
 		width: 324px;
 	}
+
 	.text-block1 {
 		bottom: 44px;
 		right: -132px;
 	}
+
 	#incc {
 		position: relative;
 		bottom: 55px;
@@ -596,24 +641,26 @@ i {
 		right: 29px;
 		left: 76px;
 	}
-	
+
 }
+
 /*************************************************************************************/
 @media screen and (max-width: 679px) {
-	.container3{
-		display: block; 
-		grid-auto-flow: column; 
-		grid-template-columns: 1fr 1fr 1fr; 
-		grid-template-rows: 1fr; 
-		gap: 0px 0px; 
-		grid-template-areas: 
-		  ". . ."; 
-		justify-content: space-between; 
+	.container3 {
+		display: block;
+		grid-auto-flow: column;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr;
+		gap: 0px 0px;
+		grid-template-areas:
+			". . .";
+		justify-content: space-between;
 		align-content: start;
 
-	  
+
 	}
-	.container2E{
+
+	.container2E {
 		margin-top: -128px;
 		margin-bottom: -202px;
 		margin-left: 21px;
@@ -623,23 +670,26 @@ i {
 	#rok1{
 		visibility: hidden;
 	}*/
-	.myImages{
+	.myImages {
 		width: fit-content;
 	}
-	
-	
-	
+
+
+
 }
+
 @media screen and (max-width: 679px) {
-	.container3{
+	.container3 {
 		margin-left: 119px;
 	}
 }
+
 @media screen and (max-width: 512px) {
-	.container3{
+	.container3 {
 		margin-left: 53px;
 	}
 }
+
 /*************************************************************************************/
 
 @media screen and (max-width: 425px) {
@@ -649,50 +699,59 @@ i {
 		font-weight: lighter;
 		justify-content: center;
 	}
+
 	.ee {
 		position: relative;
 		bottom: 89px;
 	}
+
 	.dov {
 		position: relative;
 		left: -34px;
 		right: 50px;
 		width: 401px;
 	}
+
 	#myImg2 {
 		left: -29px;
 		width: 157px;
 		bottom: 22px;
 	}
+
 	.dovo {
 		left: -34px;
 		width: 402px;
 		height: 334px;
 	}
+
 	#myImg {
 		width: 161px;
 	}
+
 	.mpx {
 		width: 119%;
 		position: relative;
 		right: 33px;
 		margin-top: 116px;
 	}
+
 	.close {
 		position: absolute;
 		top: 50px;
 		right: 31px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
+		color: #f1f1f1;
+		font-size: 40px;
+		font-weight: bold;
+		transition: 0.3s;
 	}
+
 	.modal-content {
 		margin: auto;
 		display: block;
 		width: 80%;
 		max-width: 700px;
 	}
+
 	#caption {
 		margin: auto;
 		display: block;
@@ -704,6 +763,7 @@ i {
 		padding: 10px 0;
 		height: 150px;
 	}
+
 	.myImages2 {
 		position: relative;
 		top: 140px;
@@ -711,88 +771,107 @@ i {
 		margin-top: -22px;
 		margin-left: -35px;
 	}
+
 	.text-block3 {
 		top: 124px;
 		left: 12px;
 	}
-	th{
+
+	th {
 		line-height: 74px;
-    letter-spacing: 3px;
+		letter-spacing: 3px;
 	}
 }
 
 @media screen and (max-width: 375px) {
+
 	/*********************************************************************************************/
-	.container3{
+	.container3 {
 		margin-left: -40px;
 	}
-	.container2E{
+
+	.container2E {
 		margin-bottom: -361px;
 	}
+
 	/*********************************************************************************************/
 	th {
 		position: relative;
 		left: 3px;
 	}
+
 	.text-block {
 		position: relative;
 		left: 0px;
 	}
+
 	#myImg2 {
 		width: 130px;
 		bottom: 16px;
 		left: -25px;
 	}
+
 	.dov {
 		height: 405px;
 		width: 350px;
 	}
+
 	.dovo {
 		width: 352px;
 		height: 280px;
 	}
+
 	#myImg {
 		margin-right: 6px;
 		left: -23px;
 		bottom: 13px;
 		width: 133px;
 	}
+
 	#broh {
 		position: relative;
 		bottom: 31px;
 	}
+
 	.mpx {
 		width: 119%;
 		position: relative;
 		right: 27px;
 		margin-top: 86px;
 	}
+
 	.myImages2 {
 		top: 140px;
 		width: 369px;
 		margin-top: -13px;
 		margin-left: -41px;
 	}
+
 	.text-block3 {
 		top: 131px;
 		left: -10px;
 	}
+
 	.north2 {
 		margin-top: 91px;
 	}
+
 	.north1 {
 		position: relative;
 		right: 23px;
 		margin-top: 46px;
 	}
+
 	#myImg3 {
 		margin-top: 14px;
 		width: 324px;
 	}
+
 	.text-block1 {
 		bottom: 55px;
 		right: -118px;
 	}
+
 	#rok {
 		position: relative;
 		left: 21px;
@@ -804,87 +883,106 @@ i {
 		position: relative;
 		left: -22px;
 	}
+
 	.text-block {
 		position: relative;
 		left: 0px;
 	}
+
 	#myImg2 {
 		width: 104px;
 		bottom: 16px;
 		left: -25px;
 	}
+
 	.dov {
-		height: 342px;
+		height: 860px;
 		width: 297px;
 	}
+
 	.dovo {
 		margin-top: 100px;
 		width: 297px;
 		height: 232px;
 	}
+
 	#myImg {
 		left: -22px;
 		bottom: 13px;
 		width: 105px;
 	}
+
 	#broh {
 		top: 54px;
 		position: relative;
 		bottom: 31px;
 	}
+
 	#rok1 {
 		top: 0px;
 		font-size: 20px;
 	}
+
 	.mpx {
 		width: 119%;
 		position: relative;
 		right: 27px;
 		margin-top: 86px;
 	}
+
 	.myImages2 {
 		width: 317px;
 	}
+
 	.text-block3 {
 		top: 131px;
 		letter-spacing: -1px;
 		left: -21px;
 		text-align: left;
 	}
+
 	.north {
 		position: relative;
 		left: -2px;
 		font-size: 12px;
 		bottom: 63px;
 	}
+
 	.north2 {
 		margin-top: 91px;
 	}
+
 	.north1 {
 		bottom: 105px;
 		top: 34px;
 	}
+
 	#myImg3 {
 		position: relative;
 		margin-top: -4px;
 		right: 14px;
 		width: 309px;
 	}
+
 	.text-block1 {
-		transform: rotate( 360deg);
+		transform: rotate(360deg);
 		bottom: 38px;
 		right: -26px;
 	}
+
 	#uu {
 		font-size: 12px;
 	}
+
 	#rok {
 		position: relative;
 		left: -11px;
 	}
+
 	#incc {
 		left: 55px;
 	}
+
 	#pbu3 {
 		font-size: 20px;
 	}
@@ -1024,17 +1122,18 @@ element.style {
 
 .interior {
 	margin-top: 144px;
-	display: grid; 
-  grid-template-columns: 0fr 0fr; 
-  grid-template-rows: 1fr 1fr; 
-  gap: 0px 0px; 
-  grid-template-areas: 
-    ". ."
-    ". ."; 
-  }
-  #myImgInt {
-    cursor: pointer;
-    transition: 0.3s;
-    width: 304px;
-    margin-right: 9px;
+	display: grid;
+	grid-template-columns: 0fr 0fr;
+	grid-template-rows: 1fr 1fr;
+	gap: 0px 0px;
+	grid-template-areas:
+		". ."
+		". .";
+}
+
+#myImgInt {
+	cursor: pointer;
+	transition: 0.3s;
+	width: 304px;
+	margin-right: 9px;
 }
